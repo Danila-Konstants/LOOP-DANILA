@@ -39,3 +39,49 @@ main{
 .delivery p{
     font-size: 21px;
 }
+/*--------секция м и ж ---------*/
+.man-women .container{
+    display: flex;
+    flex-direction: row;
+}
+.man,
+.women{
+    width: 50%;
+    padding-top: 60px;
+    padding-bottom: 58px;
+}
+.man-women h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.man-women h2 span{
+    font-weight: normal;
+}
+.man-women a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D7B399;
+    width: 80px;
+    height: 30px;
+    margin-top: 40px;
+}
+.man-women a:hover,
+.man-women a:focus{
+    background-color: #d87936;
+}
+.man{
+    background: url(../css/img/mygchina.png) no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.women{
+    padding-left: 35px;
+    background: url(../css/img/gengina.png) no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.man-women{
+    background: linear-gradient(90deg, #F9F6F1 0%, #F9F6F1 50%, #F9E0E0 50%, #F9E0E0 100%);
+}
