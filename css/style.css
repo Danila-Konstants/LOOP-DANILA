@@ -72,16 +72,73 @@ main{
     background-color: #d87936;
 }
 .man{
-    background: url(../css/img/mygchina.png) no-repeat;
+    background: url(../img/mygchina.png) no-repeat;
     background-position-x: right;
     background-position-y: bottom;
 }
 .women{
     padding-left: 35px;
-    background: url(../css/img/gengina.png) no-repeat;
+    background: url(../img/gengina.png) no-repeat;
     background-position-x: right;
     background-position-y: bottom;
 }
 .man-women{
     background: linear-gradient(90deg, #F9F6F1 0%, #F9F6F1 50%, #F9E0E0 50%, #F9E0E0 100%);
 }
+/*--------header-----------*/
+.header{
+    min-height: 800px;
+    background-color: #F9F6F1;
+}
+.header-menu{
+    min-height: 90px;
+}
+
+.section__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;          
+  justify-content: space-between; 
+  align-items: center;
+  min-height: 90px;
+}
+
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 35px;
+  align-items: center;
+}
+
+
+.header_logo{
+
+    padding-top: 50px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.mainmenu__item {
+  margin-right: 10px; 
+
+}
+
+.menu__link {
+  text-decoration: none;
+  font-size: 14px;         
+  font-weight: 500;
+  color: #333333;         
+}
+
+.menu__link:hover {
+  color: #ff6600;          
+}
+
+
+
+
